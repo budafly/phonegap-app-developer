@@ -14,8 +14,7 @@
     <hook src="resources/script/remove-version.js" type="after_compile" />
     <preference name="StatusBarStyle" value="default" />
     <preference name="ShowSplashScreenSpinner" value="false" />
-    <preference name="DisallowOverscroll" value="true" />
-    <preference name="phonegap-version" value="cli-8.0.0" />
+    <preference name="DisallowOverscroll" value="true" />    
     <access origin="*" launch-external="yes" />
     <content src="index.html" />
      <platform name="windows">
