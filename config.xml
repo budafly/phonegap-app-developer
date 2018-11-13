@@ -67,7 +67,7 @@
         <icon density="xhdpi" src="resources/icon/android/icon-96.png" />
         <resource-file src="google-services.json" target="google-services.json" />
     </platform>
-    <engine name="android" spec="~6.4.0" />
+    <engine name="android" spec="~6.3.0" />
     <engine name="ios" spec="^4.5.3" />
     <plugin name="cordova-plugin-google-analytics" spec="^1.8.6" />
     <plugin name="cordova-plugin-battery-status" spec="^1.2.5" />
