@@ -70,6 +70,7 @@
         <preference name="android-minSdkVersion" value="19" />
         <preference name="Orientation" value="default" />
         <preference name="SplashScreenDelay" value="0" />
+        <preference name="AndroidPersistentFileLocation" value="Compatibility" />
         <icon density="ldpi" src="resources/icon/android/icon-36.png" />
         <icon density="mdpi" src="resources/icon/android/icon-48.png" />
         <icon density="hdpi" src="resources/icon/android/icon-72.png" />
@@ -108,6 +109,7 @@
         <variable name="MICROPHONE_USAGE_DESCRIPTION" value="Microphone used for development purposes" />
         <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Photo library used for development purposes" />
     </plugin>
+    <plugin name="phonegap-plugin-media-stream" spec="^1.2.1" />
     <plugin name="cordova-plugin-network-information" spec="^2.0.1" />
     <plugin name="cordova-plugin-screen-orientation" spec="^2.0.2" />
     <plugin name="cordova-plugin-splashscreen" spec="^4.1.0" />
