@@ -71,10 +71,8 @@
         <preference name="Orientation" value="default" />
         <preference name="SplashScreenDelay" value="0" />
         <preference name="AndroidPersistentFileLocation" value="Compatibility" />
-        <config-file platform="android" parent="/manifest" mode="merge">
-            <uses-feature android:name="android.hardware.camera" />
-            <uses-permission android:name="android.permission.CAMERA" />
-        </config-file>
+        <feature name="android.hardware.camera"/>
+        <feature name="android.permission.CAMERA"/>        
         <icon density="ldpi" src="resources/icon/android/icon-36.png" />
         <icon density="mdpi" src="resources/icon/android/icon-48.png" />
         <icon density="hdpi" src="resources/icon/android/icon-72.png" />
