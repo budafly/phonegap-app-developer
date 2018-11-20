@@ -70,8 +70,7 @@
         <preference name="android-minSdkVersion" value="19" />
         <preference name="Orientation" value="default" />
         <preference name="SplashScreenDelay" value="0" />
-        <preference name="AndroidPersistentFileLocation" value="Compatibility" />
-        <custom-preference name="android-manifest/@android:hardwareAccelerated" value="true" />
+        <preference name="AndroidPersistentFileLocation" value="Compatibility" />        
         <icon density="ldpi" src="resources/icon/android/icon-36.png" />
         <icon density="mdpi" src="resources/icon/android/icon-48.png" />
         <icon density="hdpi" src="resources/icon/android/icon-72.png" />
