@@ -76,11 +76,11 @@
         <icon density="mdpi" src="resources/icon/android/icon-48.png" />
         <icon density="hdpi" src="resources/icon/android/icon-72.png" />
         <icon density="xhdpi" src="resources/icon/android/icon-96.png" />
-        <resource-file src="google-services.json" target="app/google-services.json" />
-        <plugin spec="https://github.com/budafly/Html5Video.git" source="git" />
+        <resource-file src="google-services.json" target="app/google-services.json" />        
     </platform>
     <engine name="android" spec="~6.4.0" />
     <engine name="ios" spec="^4.5.3" />
+    <plugin spec="https://github.com/budafly/Html5Video.git" source="git" />
     <plugin name="cordova-plugin-google-analytics" spec="^1.8.6">
         <variable name="GMS_VERSION" value="11.0.1" />
     </plugin>
