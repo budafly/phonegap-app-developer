@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "312753378521-a18quph33qh6idpbs8oe9ridons8dhl4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adobe.phonegap.appbuda",
+            "certificate_hash": "b36a401577e69972ca0d53933d87c5e5d0771aae"
+          }
+        },
+        {
           "client_id": "312753378521-8q45cp6rtg960ean5e39fi40e6q6jiqv.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,20 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312753378521-8q45cp6rtg960ean5e39fi40e6q6jiqv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "312753378521-oviavgi4tag79kmqnlf9eavt8geornpb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.adobe.phonegap.appbuda"
+              }
+            }
+          ]
         },
         "ads_service": {
           "status": 2
