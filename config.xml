@@ -110,7 +110,7 @@
         <variable name="MICROPHONE_USAGE_DESCRIPTION" value="Microphone used for development purposes" />
         <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Photo library used for development purposes" />
     </plugin>
-    <plugin name="cordova-plugin-streaming-media" spec="^2.2.0" />
+    <plugin name="cordova-plugin-streaming-media" spec="https://github.com/budafly/cordova-plugin-streaming-media.git" source="git" />
     <plugin name="cordova-plugin-videothumbnail-mod" spec="^1.0.0" />
     <plugin name="phonegap-plugin-media-stream" spec="^1.2.1" />
     <plugin name="cordova-plugin-network-information" spec="^2.0.1" />
