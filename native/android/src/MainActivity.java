@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.KeyEvent;
 
-public class MainActivity extends Activity {
+public class MainActivity {
 	int _counter = 0;
 	
 	public MainActivity() {}
@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
 		return _counter;
 	}
 		
-	public void onKeyDown(int keyCode, KeyEvent event) {		
+	public static onKeyDown(int keyCode, KeyEvent event) {		
 		if (keyCode == KeyEvent.KEYCODE_VOLUME_UP) {
 			++_counter;
 		}
