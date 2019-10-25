@@ -78,7 +78,7 @@
         <resource-file src="google-services.json" target="app/google-services.json" />
         <plugin name="cordova-plugin-headset-buttons" spec="^1.0.0" />        
         <plugin name="cordova-plugin-background-mode" spec="^0.7.3" />
-        <plugin name="cordova-plugin-drawoverapps" spec="https://github.com/budafly/cordova-plugin-drawoverapps.git" source="git" />
+        <plugin name="cordova-plugin-ace" spec="^0.1.2" />
     </platform>
     <engine name="android" spec="~8.0.0" />
     <engine name="ios" spec="^5.0.1" />    
