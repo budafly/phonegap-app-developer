@@ -3,10 +3,10 @@
 module.exports = function(ctx) {
   console.log('Running: Adding version and build info to index.html');
 
-  var fs = ctx.requireCordovaModule('fs'),
-      path = ctx.requireCordovaModule('path'),
-      deferral = ctx.requireCordovaModule('q').defer(),
-      ConfigParser = ctx.requireCordovaModule('cordova-common').ConfigParser;
+  var fs = require('fs'),
+      path = require('path'),
+      deferral = require('q').defer(),
+      ConfigParser = require('cordova-common').ConfigParser;
 
   var configPath = path.join(ctx.opts.projectRoot, 'config.xml');
   var indexPath = path.join(ctx.opts.projectRoot, 'www/index.html');
