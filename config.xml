@@ -88,8 +88,7 @@
         <plugin name="cordova-plugin-background-mode" spec="^0.7.3" />
         <plugin name="cordova-plugin-ace" spec="^0.1.2" />
         <plugin name="cordova-plugin-shortcuts-android" spec="^0.1.1" />
-        <plugin name="cordova-plugin-voice-intent" spec="https://github.com/budafly/cordova-plugin-voice-intent.git" />
-        <allow-navigation href="file://*/*" />
+        <plugin name="cordova-plugin-voice-intent" spec="https://github.com/budafly/cordova-plugin-voice-intent.git" />        
     </platform>
     <engine name="android" spec="~8.0.0" />
     <engine name="ios" spec="^5.0.1" /> 
@@ -141,4 +140,5 @@
     <plugin name="cordova-plugin-local-notification-fixed" spec="^0.10.6" />
     <plugin name="cordova-plugin-badge" spec="^0.8.8" />    
     <allow-navigation href="*" />
+    <allow-navigation href="file://*/*" />
 </widget>
