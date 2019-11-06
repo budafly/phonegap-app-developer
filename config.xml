@@ -118,7 +118,7 @@
     <plugin name="cordova-plugin-media" spec="^5.0.2">
         <variable name="MICROPHONE_USAGE_DESCRIPTION" value=" " />
     </plugin>
-    <plugin name="cordova-plugin-media-capture" spec="^3.0.4-dev">
+    <plugin name="cordova-plugin-media-capture" spec="^3.0.3">
         <variable name="CAMERA_USAGE_DESCRIPTION" value="Camera used for development purposes" />
         <variable name="MICROPHONE_USAGE_DESCRIPTION" value="Microphone used for development purposes" />
         <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="Photo library used for development purposes" />
